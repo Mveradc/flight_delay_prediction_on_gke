@@ -1,0 +1,6 @@
+# Language stats: count the project code, not notebooks or bundled libraries
+*.ipynb linguist-documentation
+resources/web/static/*.min.js linguist-vendored
+resources/web/static/*.min.css linguist-vendored
+resources/web/static/d3.v3.min.js linguist-vendored
+resources/web/static/jquery-*.js linguist-vendored
